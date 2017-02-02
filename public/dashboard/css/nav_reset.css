@@ -1,0 +1,44 @@
+
+html,body {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar, .navbar-default {
+	border: none;
+	background-color: #272623;
+}
+.unit {
+	border: none;
+}
+.navbar-custom {
+  background-color:#272623;
+  border-radius:0;
+	font-size: 1em;
+
+}
+
+.navbar-custom .navbar-nav > li > a {
+    color:#FFF;
+    text-decoration: none;
+}
+
+
+.navbar-custom .navbar-nav > li > a:hover {
+    color:#56bba7;
+}
+.navbar-custom .navbar-brand {
+    color:#eeeeee;
+}
+
+.dropdown-menu>li a {
+  color: #333 !important;
+  font-size: 1em;
+  text-decoration: none;
+}
+.dropdown-menu>li a:hover {
+    color: #56bba7 !important;
+    background-color: #272623;
+    font-size: 1em;
+    text-decoration: none;
+}

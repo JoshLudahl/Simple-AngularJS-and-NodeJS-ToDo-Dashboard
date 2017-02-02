@@ -1,0 +1,29 @@
+{
+  "name": "dashboard",
+  "version": "0.0.2",
+  "description": "a mean stack dashboard",
+  "engines": {
+    "node": "6.5.0"
+  },
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "bcrypt": "^0.8.7",
+    "body-parser": "^1.15.2",
+    "connect-ensure-login": "^0.1.1",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "ejs": "2.4.1",
+    "express": "4.13.3",
+    "express-session": "^1.14.1",
+    "method-override": "2.3.6",
+    "mongoose": "4.6.1",
+    "morgan": "1.7.0",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "passport-local-authenticate": "^1.2.0"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,147 @@
+
+/*
+
+--Colors--
+white: #fff
+dark grey: #333
+light grey: #555
+
+
+pink: #e66c7e
+black: #1d191f
+white: #fff
+
+inspired by: http://typespiration.com/design/alegreya/
+
+
+*/
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+    display: none !important;
+}
+
+
+#wrapper {
+    margin-left:auto;
+    margin-right:auto;
+
+}
+
+html,
+body {
+
+  margin-left:auto;
+  margin-right:auto;
+}
+
+body {
+  font-family: 'Alegreya Sans';
+  font-weight: 400;
+  background-color: #e9ece5;
+
+
+}
+h1, h2, h3, span {
+  color: #fff;
+}
+
+/* PICTURE TEXT */
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.text-vertical-center h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 4.5em;
+    font-weight: 700;
+}
+.quote-text {
+    font-family: 'Martel';
+    font-weight: 300;
+}
+.author-text {
+    font-family: 'Martel';
+}
+
+/* panels  */
+.panel-orange {
+  background-color: #E36E40 ;
+}
+.panel-green {
+  background-color: #56bba7;
+}
+.panel-grey {
+  background-color: rgb(48,35,29);
+}
+.panel-red {
+  background-color: #e74c3c;
+}
+.panel-blue {
+  background-color: #3498db;
+}
+.panel-purple {
+  background-color: #9b59b6;
+}
+
+.localTime {
+  font-size: 3em;
+  color: #fff;
+  font-family: 'Alegreya Sans';
+    font-weight: 400;
+	line-height: 36px;
+	text-indent: 36px;
+}
+
+.localDate {
+  font-size: 1.5em;
+  color: #fff;
+}
+
+#cloudIcon, #city {
+  font-size: 2em;
+}
+
+/* List styles */
+.todos>li {
+  color: #FFF;
+
+}
+i,i a {
+    text-decoration: none;
+}
+
+/*  Lists */
+ul {
+  list-style-type: none;
+}
+li li{
+  font-size: 1em;
+}
+
+li {
+  font-size: 1.25em;
+  color: #fff;
+  font-weight: 400;
+}
+li a, ul>li>ul>li {
+  color: #fff;
+
+  font-weight: 400;
+}
+li a {
+  text-decoration: underline;
+}
+li>a:hover {
+  color:#e66c7e;
+}
+.todoList>ul>li> a{
+    color: #333;
+}
+* > i{ vertical-align: middle !important; }
+.boxy {
+    max-width: 100%;
+}
+

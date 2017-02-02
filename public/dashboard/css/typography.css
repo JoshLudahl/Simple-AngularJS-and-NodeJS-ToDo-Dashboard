@@ -1,0 +1,66 @@
+/*
+
+--Colors--
+white: #fff
+light grey: #555
+
+
+inspired by: http://typespiration.com/design/alegreya/
+
+
+green: #56bba7
+black: #272623
+white: #e9ece5
+
+http://typespiration.com/design/perfection/
+*/
+
+.types>h1 {
+	color: #272623;
+	font-family: 'Martel';
+	font-size: 32px;
+	font-weight: 300;
+	line-height: 52px;
+	margin-bottom: 48px;
+	text-align: center;
+}
+.types>h2 {
+	color: #272623;
+	font-family: 'Martel';
+
+	font-weight: 300;
+	line-height: 52px;
+	margin-bottom: 48px;
+	text-align: center;
+}
+
+.types>p {
+	color: #272623;
+	font-family: 'Roboto Condensed';
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 3px;
+	margin-bottom: 48px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.types>p:before {
+	background: #56bba7;
+	content: '';
+	display: block;
+	height: 1px;
+	margin: 48px auto 47px;
+	width: 50px;
+}
+
+.types>a, .types>p>a {
+	color: #56bba7;	letter-spacing: 3px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.types>a:hover {
+
+}

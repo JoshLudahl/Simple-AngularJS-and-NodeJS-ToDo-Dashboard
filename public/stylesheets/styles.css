@@ -1,0 +1,84 @@
+﻿/*
+
+Place Custom CSS / RESET CSS here
+
+*/
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+    display: none !important;
+}
+
+body {
+    background-color:#CACCCC;
+    font-family: 'Vollkorn', sans-serif;
+    margin:0;
+    padding:0;
+    height: 100%;
+}
+html { height: 100%; }
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar-default .navbar-brand {
+  color: #F79707;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #D98B2B;
+}
+.soc-icons {
+    padding-top:1em;
+}
+.soc-icons li {
+    display:inline;
+    list-style-type:none;
+    padding:.25em;
+}
+.jumbotron {
+    background-color: #2E3338;
+    color: #fff;
+    margin-bottom: 0;
+    padding-bottom:0;
+}
+.fa, i {
+    color: #CACCCC;
+}
+.about {
+    color:#114C66;
+    padding: 0;
+}
+p.about {
+    color:#2E3338;
+    padding:0;
+    margin:0;
+}
+@import url("http://fonts.googleapis.com/css?family=Vollkorn");
+
+.con {
+    color:#fff;
+}
+.snot ul, .snot li {
+    margin:0;
+    padding:0;
+    padding-right: 1em;
+    display:inline;
+    list-style-type:none;
+}
+.crap {
+    padding-top: 2em;
+}
+.dung {
+    margin: auto;
+    width: 50%;
+    border:3px solid #8AC007;
+    padding: 10px;
+}
+.container img {
+    padding: 10px;
+}
+.headliner h1 {
+    font-size: 3.5em;
+}
+#errMsg {
+    color: #f44336;
+}

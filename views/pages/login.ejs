@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html ng-app="angApp">
+<head>
+    <% include ../partials/header.ejs %>
+
+   <script src="https://use.fontawesome.com/1f259fae63.js"></script>
+<link rel="stylesheet" href="/stylesheets/login.css" />
+</head>
+
+<body>
+
+<% include ../partials/nav.ejs %>
+<% if (message && message == null) { %>
+  <script>  
+  document.getElementById("errMsg").style.display = "none"; 
+  </script>
+
+   <% } %>
+
+<div class="container login">
+		<div class="jumbotron text-center">
+		<h1>Login</h1>
+		</div>
+
+    <div id="login">
+  <form name='form-login' action="/login" method="post">
+    <span class="fontawesome-user"><i class="fa fa-user" aria-hidden="true"></i></span>
+    <input type="text" id="user" name="username" placeholder="Username">
+
+    <span class="fontawesome-lock"><i class="fa fa-lock" aria-hidden="true"></i></span>
+    <input type="password" id "pass" name="password" placeholder="Password">
+
+    <input type="submit" value="Login">
+<p id="errMsg"><%= message %></p>
+  </form>
+</div>
+
+</div>
+
+
+<footer>
+    <!-- add the partials footer later -->
+</footer>
+
+</body>
+</html>

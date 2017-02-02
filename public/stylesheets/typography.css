@@ -1,0 +1,50 @@
+.about>h1 {
+    color: #333333;
+    font-family: 'Fjalla One';
+    font-size: 2.3em;
+    font-weight: 500;
+    letter-spacing: 3px;
+    line-height: 72px;
+    margin-bottom: 24px;
+    text-align: center;
+    text-transform: uppercase;
+}
+h1.h1About:after {
+    color: #114C66;
+    display: block;
+    content: '. . .';
+    font-size: 1.5em;
+    line-height: 24px;
+    height: 24px;
+    margin: 48px auto;
+}
+h1.h1Content:after {
+    color: #114C66;
+    display: block;
+    content: '. . .';
+    font-size: 1em;
+    line-height: 12px;
+    height: 12px;
+    margin: 12px auto;
+}
+
+.about>p {
+    color: #42393B;
+    font-family: 'PT Serif';
+    font-size: 2em;
+    font-weight: 500;
+    line-height: 48px;
+    margin: 0 auto 24px;
+    max-width: 800px;
+    text-align: center;
+}
+
+.about>a, .about>p>a, .about a {
+    color: #D98B2B;	font-size: 18px;
+    font-style: italic;
+    text-align: center;
+}
+
+.about>p>a:hover {
+    color: #999;
+}
